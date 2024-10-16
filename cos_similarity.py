@@ -32,7 +32,7 @@ def cos_similarity(v1,v2):
     similarity = dot_product(v1,v2) / vektor_size_multiply
     print(f"{v1} ve {v2}'nin kosinüs benzerliği:",similarity)
 
-
+#kosinüs benzerliği
 cos_similarity([2,3,5],[6,9,15])
 
 
